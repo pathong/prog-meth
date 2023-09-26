@@ -1,0 +1,30 @@
+@startuml
+class test.student.ServerTest {
+~ User u1
+~ void setUp()
+~ void testConstructorBasicTemplate()
+~ void testConstructorGamingTemplate()
+~ void testConstructorStudyTemplate()
+~ void testConstructorEmptyServerName()
+~ void testSetName()
+~ void testSetNameEmpty()
+~ void testAddUser()
+~ void testAddDuplicateUser()
+~ void testKickUser()
+~ void testKickUserNotOwner()
+~ void testKickUserNonExistingUserOrKickingOwner()
+~ void testAddChannelOwner()
+~ void testAddChannelNotOwner()
+}
+class test.student.ChannelTest {
+~ Channel c
+~ Message m1
+~ void setUp()
+~ void testConstructor()
+~ void testConstructorEmptyName()
+~ void testSetName()
+~ void testSetNameEmpty()
+~ void testAddMessage()
+~ void testGetMessageCount()
+}
+@enduml

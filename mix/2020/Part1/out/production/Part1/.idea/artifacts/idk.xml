@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="idk">
+    <output-path>$PROJECT_DIR$/out/artifacts/idk</output-path>
+    <root id="archive" name="idk.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="module-output" name="Part1" />
+    </root>
+  </artifact>
+</component>

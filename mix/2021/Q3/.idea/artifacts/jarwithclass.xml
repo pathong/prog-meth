@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jarwithclass">
+    <output-path>$PROJECT_DIR$/out/artifacts/jarwithclass</output-path>
+    <root id="archive" name="jarwithclass.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="module-output" name="Q3" />
+    </root>
+  </artifact>
+</component>
